@@ -1,6 +1,5 @@
 #!/bin/bash
 
-dpct cuda/aes_cuda_benchmark.cu --extra-arg="-I../.."
 clang++ -std=c++11 cuda/aes_cuda_benchmark.cu -I../.. --cuda-path=/usr/local/cuda-10.1 \
     --cuda-gpu-arch=sm_50 -L/usr/local/cuda-10.1/lib64 \
     -lcudart_static -ldl -lrt -pthread -save-temps -v
