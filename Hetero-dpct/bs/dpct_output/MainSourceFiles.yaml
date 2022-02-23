@@ -1,0 +1,757 @@
+---
+MainSourceFile:  MainSrcFiles_placehold
+Replacements:
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          1835
+    Length:          0
+    ReplacementText: "#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          1936
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2232
+    Length:          7
+    ReplacementText: 'sycl::fabs(X)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2311
+    Length:          18
+    ReplacementText: 'sycl::exp(-X * X / 2.0f)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2440
+    Length:          11
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2548
+    Length:          0
+    ReplacementText: ', sycl::nd_item<3> item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2565
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2578
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range().get(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          2591
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3069
+    Length:          7
+    ReplacementText: 'sycl::sqrt(t)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3126
+    Length:          10
+    ReplacementText: 'sycl::log(s / k)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3278
+    Length:          11
+    ReplacementText: 'sycl::exp(-r * t)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3504
+    Length:          0
+    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3537
+    Length:          67
+    ReplacementText: 'd_rand_array_ = sycl::malloc_device<float>(num_tiles_ * tile_size_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3608
+    Length:          67
+    ReplacementText: 'd_call_price_ = sycl::malloc_device<float>(num_tiles_ * tile_size_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3679
+    Length:          66
+    ReplacementText: 'd_put_price_ = sycl::malloc_device<float>(num_tiles_ * tile_size_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3750
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3841
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          3866
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4212
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4307
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4336
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4429
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4454
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4508
+    Length:          26
+    ReplacementText: 'stream_ = dev_ct1.create_queue()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          4568
+    Length:          0
+    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5596
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5612
+    Length:          2
+    ReplacementText: 1, 1, 64
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5623
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5638
+    Length:          36
+    ReplacementText: '1, 1, (section_tiles * tile_size_) / 64.00'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5710
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1049:0: The workgroup size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the workgroup size if needed.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5716
+    Length:          223
+    ReplacementText: "stream_->submit(\n        [&](sycl::handler &cgh) {\n          auto d_rand_array__offset_ct0 = d_rand_array_ + offset;\n          auto d_call_price__offset_ct1 = d_call_price_ + offset;\n          auto d_put_price__offset_ct2 = d_put_price_ + offset;\n\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid_size * block_size, block_size), \n            [=](sycl::nd_item<3> item_ct1) {\n              bs_cuda(d_rand_array__offset_ct0, d_call_price__offset_ct1, d_put_price__offset_ct2, item_ct1);\n            });\n        });"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          5939
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6205
+    Length:          23
+    ReplacementText: 'dev_ct1.queues_wait_and_throw()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6262
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6354
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6383
+    Length:          10
+    ReplacementText: q_ct1.memcpy
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6460
+    Length:          37
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6498
+    Length:          0
+    ReplacementText: '.wait()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6574
+    Length:          0
+    ReplacementText: ' try '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6576
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1027:1: The call to cudaStreamQuery was replaced with 0 because DPC++ currently does not support query operations on queues.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6578
+    Length:          11
+    ReplacementText: int
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6596
+    Length:          24
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6635
+    Length:          11
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6719
+    Length:          0
+    ReplacementText: "\ncatch (sycl::exception const &exc) {\n  std::cerr << exc.what() << \"Exception caught at file:\" << __FILE__ << \", line:\" << __LINE__ << std::endl;\n  std::exit(1);\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6754
+    Length:          0
+    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6757
+    Length:          26
+    ReplacementText: 'dev_ct1.destroy_queue(stream_)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6787
+    Length:          23
+    ReplacementText: 'sycl::free(d_rand_array_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6814
+    Length:          23
+    ReplacementText: 'sycl::free(d_call_price_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Offset:          6841
+    Length:          22
+    ReplacementText: 'sycl::free(d_put_price_, q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+    Digest:          6b448e5d44941a2403821dbfa3f31909
+DpctVersion:     2022.0.0
+MainHelperFileName: dpct
+USMLevel:        ''
+FeatureMap:
+  device.hpp:
+    dev_mgr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dev_mgr
+      SubFeatureMap:
+        dev_mgr_1:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     dev_mgr
+          SubFeatureMap:   {}
+        dev_mgr_2:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     dev_mgr
+          SubFeatureMap:   {}
+        dev_mgr_3:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     dev_mgr
+          SubFeatureMap:   {}
+        dev_mgr_4:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     dev_mgr
+          SubFeatureMap:   {}
+        dev_mgr_check_id:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'dev_mgr::check_id'
+          SubFeatureMap:   {}
+        dev_mgr_current_device:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'dev_mgr::current_device'
+          SubFeatureMap:   {}
+        dev_mgr_current_device_id:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'dev_mgr::current_device_id'
+          SubFeatureMap:   {}
+    device_ext:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     device_ext
+      SubFeatureMap:
+        device_ext_1:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     device_ext
+          SubFeatureMap:   {}
+        device_ext_2:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     device_ext
+          SubFeatureMap:   {}
+        device_ext_create_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'device_ext::create_queue'
+          SubFeatureMap:   {}
+        device_ext_default_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'device_ext::default_queue'
+          SubFeatureMap:   {}
+        device_ext_destroy_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'device_ext::destroy_queue'
+          SubFeatureMap:   {}
+        device_ext_queues_wait_and_throw:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'device_ext::queues_wait_and_throw'
+          SubFeatureMap:   {}
+    exception_handler:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     exception_handler
+      SubFeatureMap:   {}
+    get_current_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     get_current_device
+      SubFeatureMap:   {}
+    get_default_queue:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     get_default_queue
+      SubFeatureMap:   {}
+    get_tid:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     get_tid
+      SubFeatureMap:   {}
+  dpct.hpp:
+    non_local_include_dependency:
+      IsCalled:        true
+      CallerSrcFiles:
+        - ''
+      FeatureName:     ''
+      SubFeatureMap:   {}
+  memory.hpp:
+    dpct_memcpy:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_2d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_2d_3d_pitch_detail:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_2d_pitch_detail:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_3d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_3d_detail:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    dpct_memcpy_detail:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     dpct_memcpy
+      SubFeatureMap:   {}
+    mem_mgr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     mem_mgr
+      SubFeatureMap:
+        mem_mgr_1:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     mem_mgr
+          SubFeatureMap:   {}
+        mem_mgr_2:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     mem_mgr
+          SubFeatureMap:   {}
+        mem_mgr_get_map_iterator:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'mem_mgr::get_map_iterator'
+          SubFeatureMap:   {}
+        mem_mgr_is_device_ptr:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'mem_mgr::is_device_ptr'
+          SubFeatureMap:   {}
+        mem_mgr_translate_ptr:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'mem_mgr::translate_ptr'
+          SubFeatureMap:   {}
+    memcpy_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     memcpy_direction
+      SubFeatureMap:   {}
+    pitched_data:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     pitched_data
+      SubFeatureMap:
+        pitched_data_get_data_ptr:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'pitched_data::get_data_ptr'
+          SubFeatureMap:   {}
+        pitched_data_get_pitch:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'pitched_data::get_pitch'
+          SubFeatureMap:   {}
+        pitched_data_get_y:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+          FeatureName:     'pitched_data::get_y'
+          SubFeatureMap:   {}
+    pitched_data_1:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     pitched_data
+      SubFeatureMap:   {}
+    typedef_buffer_t:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     buffer_t
+      SubFeatureMap:   {}
+    typedef_byte_t:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/bs/cuda/bs_cuda_benchmark.cu'
+      FeatureName:     byte_t
+      SubFeatureMap:   {}
+CompileTargets:  {}
+OptionMap:
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           ''
+    Specified:       false
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  CustomHelperFileName:
+    Value:           dpct
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
