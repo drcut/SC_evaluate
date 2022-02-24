@@ -1,0 +1,5 @@
+hipify-clang gaussian.cu --cuda-path=/usr/local/cuda \
+    -I /usr/local/cuda/samples/common/inc \
+    -I../.. -o gaussian.cc
+g++ -o gaussian gaussian.cc -lpthread -ltbb -fpermissive
+./gaussian -f ../../data/gaussian/matrix4.txt
