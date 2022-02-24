@@ -88,20 +88,22 @@ void PrCudaBenchmark::Run() {
   cudaMemcpy(device_mtx_1, temp_mtx, num_nodes_ * sizeof(float),
              cudaMemcpyHostToDevice);
   free(temp_mtx);
-
+  cudaDeviceSynchronize();
   cpu_gpu_logger_->GPUOn();
   for (i = 0; i < max_iteration_; i++) {
     if (i % 2 == 0) {
       pr_cuda<<<grid_size, block_size>>>(device_row_offsets,
                                          device_column_numbers, device_values,
                                          device_mtx_1, device_mtx_2);
+      cudaDeviceSynchronize();
     } else {
       pr_cuda<<<grid_size, block_size>>>(device_row_offsets,
                                          device_column_numbers, device_values,
                                          device_mtx_2, device_mtx_1);
+      cudaDeviceSynchronize();
     }
   }
-  cudaDeviceSynchronize();
+  
 
   if (i % 2 != 0) {
     cudaMemcpy(page_rank_, device_mtx_1, num_nodes_ * sizeof(float),

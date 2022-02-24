@@ -1,10 +1,10 @@
 #!/bin/bash
 
 clang++ -std=c++11 cuda/ep_cuda_benchmark.cu -I../.. --cuda-path=/usr/local/cuda-10.1 \
-    --cuda-gpu-arch=sm_50 -L/usr/local/cuda-10.1/lib64 \
+    --cuda-gpu-arch=sm_61 -L/usr/local/cuda-10.1/lib64 \
     -lcudart_static -ldl -lrt -pthread -save-temps -v
 
-kernelTranslator ep_cuda_benchmark-cuda-nvptx64-nvidia-cuda-sm_50.bc kernel.bc
+kernelTranslator ep_cuda_benchmark-cuda-nvptx64-nvidia-cuda-sm_61.bc kernel.bc
 hostTranslator ep_cuda_benchmark-host-x86_64-unknown-linux-gnu.bc host.bc
 
 llc --relocation-model=pic --filetype=obj  kernel.bc

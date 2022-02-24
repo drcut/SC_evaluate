@@ -49,10 +49,8 @@ void EpCudaBenchmark::Initialize() {
   cudaSetDevice(0);
   cudaMalloc(&d_island_, population_ / 2 * sizeof(Creature));
   cudaMalloc(&d_fitness_func_, kNumVariables * sizeof(double));
-  cudaDeviceSynchronize();
   cudaMemcpy(d_fitness_func_, fitness_function_, kNumVariables * sizeof(double),
              cudaMemcpyHostToDevice);
-  cudaDeviceSynchronize();
 }
 
 void EpCudaBenchmark::Run() {
@@ -115,7 +113,6 @@ void EpCudaBenchmark::NormalRun() {
 
 __global__ void Evaluate_Kernel(Creature *creatures, double *fitness_function,
                                 uint32_t count, uint32_t num_vars) {
-                                  return;
   uint32_t i = blockIdx.x * blockDim.x + threadIdx.x;
   if (i >= count) return;
 
@@ -132,21 +129,16 @@ __global__ void Evaluate_Kernel(Creature *creatures, double *fitness_function,
 }
 
 void EpCudaBenchmark::EvaluateGpu(std::vector<Creature> *island) {
-  cudaDeviceSynchronize();
   cudaMemcpy(d_island_, island->data(), population_ / 2 * sizeof(Creature),
              cudaMemcpyHostToDevice);
-  cudaDeviceSynchronize();
   dim3 block_size(64);
   dim3 grid_size((population_ / 2 * +block_size.x - 1) / block_size.x);
   cpu_gpu_logger_->GPUOn();
-  printf("before evaluate\n");
   Evaluate_Kernel<<<grid_size, block_size>>>(d_island_, d_fitness_func_,
                                              population_ / 2, kNumVariables);
   cudaDeviceSynchronize();
-  printf("after evaluate\n");
   cudaMemcpy(island->data(), d_island_, population_ / 2 * sizeof(Creature),
              cudaMemcpyDeviceToHost);
-  cudaDeviceSynchronize();
   cpu_gpu_logger_->GPUOff();
 }
 
@@ -158,26 +150,20 @@ __global__ void Mutate_Kernel(Creature *creatures, uint32_t count,
 
   if (i % 7 != 0) return;
 
-  printf("%d %d\n",i,i%num_vars);
   creatures[i].parameters[i % num_vars] *= 0.5;
 }
 
 void EpCudaBenchmark::MutateGpu(std::vector<Creature> *island) {
-  cudaDeviceSynchronize();
   cudaMemcpy(d_island_, island->data(), population_ / 2 * sizeof(Creature),
              cudaMemcpyHostToDevice);
-  cudaDeviceSynchronize();
   dim3 block_size(64);
   dim3 grid_size((population_ / 2 * +block_size.x - 1) / block_size.x);
   cpu_gpu_logger_->GPUOn();
-  printf("before mutate\n");
   Mutate_Kernel<<<grid_size, block_size>>>(d_island_, population_ / 2,
                                            kNumVariables);
   cudaDeviceSynchronize();
-  printf("after mutate\n");
   cudaMemcpy(island->data(), d_island_, population_ / 2 * sizeof(Creature),
              cudaMemcpyDeviceToHost);
-  cudaDeviceSynchronize();
   cpu_gpu_logger_->GPUOff();
 }
 
