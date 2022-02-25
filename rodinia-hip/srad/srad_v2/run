@@ -1,0 +1,3 @@
+perl hipify-perl srad.cu > srad.cc
+g++ -o 3D 3D.cc -lpthread -ltbb -fpermissive
+./srad 2048 2048 0 127 0 127 0.5 2
