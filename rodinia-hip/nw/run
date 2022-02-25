@@ -1,0 +1,5 @@
+hipify-clang --perl
+perl hipify-perl ex_particle_CUDA_naive_seq.cu > ex_particle_CUDA_naive_seq.cc
+g++ -o particlefilter_naive ex_particle_CUDA_naive_seq.cc -lpthread -ltbb -fpermissive
+
+./needle 2048 10

@@ -1,0 +1,10 @@
+#hipify-clang --perl
+perl hipify-perl main.cu > main.cc
+perl hipify-perl master.cu > master.cc
+perl hipify-perl work_2.cu > work_2.cc
+perl hipify-perl work_2.cu > work_2.cc
+
+
+g++ -o myocyte.out main.cc -lpthread -ltbb -fpermissive
+
+./myocyte.out 100 1 0

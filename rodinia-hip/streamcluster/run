@@ -1,0 +1,5 @@
+perl hipify-perl streamcluster_header.cu > streamcluster_header.cc
+perl hipify-perl streamcluster_cuda.cu > streamcluster_cuda.cc
+g++ -o sc_gpu streamcluster_cuda_cpu.cpp streamcluster_cuda.cc \
+    streamcluster_header.cc -lpthread -ltbb -fpermissive
+./sc_gpu 10 20 256 65536 65536 1000 none output.txt 1

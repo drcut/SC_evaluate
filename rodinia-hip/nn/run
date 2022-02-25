@@ -1,0 +1,5 @@
+hipify-clang --perl
+perl hipify-perl nn_cuda.cu > nn_cuda.cc
+g++ -o nn nn_cuda.cc -lpthread -ltbb -fpermissive
+
+./nn filelist_4 -r 5 -lat 30 -lng 90
