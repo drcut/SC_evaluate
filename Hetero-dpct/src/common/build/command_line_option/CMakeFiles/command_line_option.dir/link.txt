@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommand_line_option.a CMakeFiles/command_line_option.dir/benchmark_command_line_options.o CMakeFiles/command_line_option.dir/command_line_option.o CMakeFiles/command_line_option.dir/option_parser_impl.o CMakeFiles/command_line_option.dir/option_setting_help_printer.o CMakeFiles/command_line_option.dir/option_setting_impl.o
+/usr/bin/ranlib libcommand_line_option.a

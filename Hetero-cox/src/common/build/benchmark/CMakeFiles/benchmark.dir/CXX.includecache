@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/common/benchmark/benchmark_runner.cc
+src/common/benchmark/benchmark_runner.h
+/home/robinhan/repo/Hetero-Mark-dpct-dpcpp/src/common/benchmark/src/common/benchmark/benchmark_runner.h
+

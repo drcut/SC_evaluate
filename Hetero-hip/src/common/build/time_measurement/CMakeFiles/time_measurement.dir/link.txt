@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtime_measurement.a CMakeFiles/time_measurement.dir/time_keeper_impl.o CMakeFiles/time_measurement.dir/time_keeper_summary_printer.o CMakeFiles/time_measurement.dir/time_measurement_impl.o CMakeFiles/time_measurement.dir/timer_impl.o
+/usr/bin/ranlib libtime_measurement.a
