@@ -42,8 +42,7 @@
 
 #include "src/bs/bs_benchmark.h"
 
-//#include <cuda_runtime.h>
-#include "cudaRuntimeImpl.h"
+#include <cuda_runtime.h>
 #include "src/common/time_measurement/time_measurement.h"
 
 class BsCudaBenchmark : public BsBenchmark {
