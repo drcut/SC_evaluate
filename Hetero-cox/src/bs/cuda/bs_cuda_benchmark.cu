@@ -119,8 +119,6 @@ void BsCudaBenchmark::Initialize() {
              num_tiles_ * tile_size_ * sizeof(float), cudaMemcpyHostToDevice);
   free(temp_call_price);
   free(temp_put_price);
-
-  cudaStreamCreate(&stream_);
 }
 
 void BsCudaBenchmark::Run() {
@@ -154,7 +152,7 @@ void BsCudaBenchmark::Run() {
       dim3 grid_size((section_tiles * tile_size_) / 64.00);
 
       cpu_gpu_logger_->GPUOn();
-      bs_cuda<<<grid_size, block_size, 0, stream_>>>(d_rand_array_ + offset,
+      bs_cuda<<<grid_size, block_size, 0>>>(d_rand_array_ + offset,
                                                      d_call_price_ + offset,
                                                      d_put_price_ + offset);
       cudaDeviceSynchronize();
@@ -183,7 +181,6 @@ bool BsCudaBenchmark::IsGpuCompleted() {
 }
 
 void BsCudaBenchmark::Cleanup() {
-  cudaStreamDestroy(stream_);
   cudaFree(d_rand_array_);
   cudaFree(d_call_price_);
   cudaFree(d_put_price_);
