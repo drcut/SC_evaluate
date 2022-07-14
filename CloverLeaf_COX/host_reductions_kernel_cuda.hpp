@@ -1,0 +1,6 @@
+#ifndef __HOST_REDUCTIONS_KERNEL_CUDA_INC
+#define __HOST_REDUCTIONS_KERNEL_CUDA_INC
+
+#include "cuda_common.hpp"
+
+#endif //__HOST_REDUCTIONS_KERNEL_CUDA_INC

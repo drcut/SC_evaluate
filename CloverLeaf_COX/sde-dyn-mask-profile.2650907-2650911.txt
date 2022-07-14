@@ -1,0 +1,42 @@
+<output>
+<thread>
+   <thread-number> 0 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 1 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 2 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 3 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+</output>

@@ -1,0 +1,702 @@
+<output>
+<thread>
+   <thread-number> 0 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 1 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 2 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 3 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 4 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 5 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 6 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 7 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 8 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 9 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 10 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 11 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 12 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 13 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 14 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 15 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 16 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 17 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 18 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 19 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 20 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 21 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 22 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 23 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 24 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 25 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 26 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 27 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 28 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 29 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 30 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 31 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 32 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 33 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 34 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 35 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 36 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 37 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 38 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 39 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 40 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 41 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 42 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 43 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 44 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 45 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 46 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 47 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 48 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 49 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 50 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 51 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 52 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 53 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 54 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 55 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 56 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 57 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 58 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 59 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 60 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 61 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 62 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 63 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 64 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 65 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 66 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 67 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 68 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+<thread>
+   <thread-number> 69 </thread-number>
+   <instructions-statistics>
+   </instructions-statistics>
+   <thread-summary>
+      <summarytable>
+          mask        cat    vec-length    #elements   element_s  element_t  |      icount       comp_count    %max-comp
+      </summarytable>
+   </thread-summary>
+</thread>
+</output>

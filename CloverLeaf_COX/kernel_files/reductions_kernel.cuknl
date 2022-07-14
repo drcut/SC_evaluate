@@ -1,0 +1,18 @@
+
+#include <float.h>
+
+enum REDUCTION_TYPE
+{
+    RED_SUM,
+    RED_MAX,
+    RED_MIN
+};
+
+inline __device__ double sum_default(double *default_val) { return 0.0; }
+inline __device__ int sum_default(int *default_val) { return 0; }
+
+inline __device__ double max_default(double *default_val) { return -DBL_MAX; }
+inline __device__ int max_default(int *default_val) { return INT_MIN; }
+
+inline __device__ double min_default(double *default_val) { return DBL_MAX; }
+inline __device__ int min_default(int *default_val) { return INT_MAX; }
