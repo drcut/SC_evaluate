@@ -1,1 +1,4 @@
-./pathfinder 100000 100 20 > result.txt
+hipify-clang --perl
+perl hipify-perl pathfinder.cu > pathfinder.cc
+g++ -std=c++17 -o pathfinder pathfinder.cc -lpthread -ltbb -fpermissive -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include
+./pathfinder 100000 1000 20

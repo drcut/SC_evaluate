@@ -1,5 +1,5 @@
-hipify-clang --perl
-perl hipify-perl nn_cuda.cu > nn_cuda.cc
-g++ -o nn nn_cuda.cc -lpthread -ltbb -fpermissive
+#hipify-clang --perl
+#perl hipify-perl nn_cuda.cu > nn_cuda.cc
+g++  -std=c++17 -o nn nn_cuda.cc -lpthread -ltbb -fpermissive -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include
 
-./nn filelist_4 -r 5 -lat 30 -lng 90
+time ./nn /nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/rodinia-dpcpp/data/nn/filelist.txt -r 5 -lat 30 -lng 90

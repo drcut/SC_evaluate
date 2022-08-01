@@ -1,10 +1,10 @@
 #hipify-clang --perl
-perl hipify-perl main.cu > main.cc
-perl hipify-perl master.cu > master.cc
-perl hipify-perl work_2.cu > work_2.cc
-perl hipify-perl work_2.cu > work_2.cc
+#perl hipify-perl main.cu > main.cc
+#perl hipify-perl master.cu > master.cc
+#perl hipify-perl work_2.cu > work_2.cc
+#perl hipify-perl work_2.cu > work_2.cc
 
 
-g++ -o myocyte.out main.cc -lpthread -ltbb -fpermissive
+g++ -std=c++17 -o myocyte.out main.cc -lpthread -ltbb -fpermissive  -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include
 
-./myocyte.out 100 1 0
+./myocyte.out 1024 1 0

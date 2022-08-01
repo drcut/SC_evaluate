@@ -1,0 +1,10 @@
+
+#hipify-clang --perl
+perl hipify-perl kernel/kernel_gpu_cuda_wrapper_2.cu > kernel/kernel_gpu_cuda_wrapper_2.cc
+perl hipify-perl kernel/kernel_gpu_cuda_wrapper.cu > kernel/kernel_gpu_cuda_wrapper.cc
+perl hipify-perl util/cuda/cuda.cu > util/cuda/cuda.cc
+perl hipify-perl main.c > main_hip.cc
+
+g++ -o b+tree.out main.c -lpthread -ltbb -fpermissive
+
+./b+tree.out file ../../data/b+tree/mil.txt command ../../data/b+tree/command.txt

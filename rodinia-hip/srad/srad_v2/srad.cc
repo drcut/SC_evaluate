@@ -350,4 +350,3 @@ void random_matrix(float *I, int rows, int cols){
 	}
 
 }
-

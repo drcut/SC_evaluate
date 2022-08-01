@@ -1,13 +1,3 @@
 
-# hipify-clang hotspot.cu --cuda-path=/usr/local/cuda \
-#    -I /usr/local/cuda/samples/common/inc \
-#    -I../.. -o hotspot.cc
-# perl hipify-perl kernel.cu > kernel.cc
-# perl hipify-perl kernel2.cu > kernel2.cc
-perl hipify-perl 3D.cu > 3D.cc
-perl hipify-perl opt1.cu > opt1.cc
-
-g++ -o 3D 3D.cc -lpthread -ltbb -fpermissive
-
-
-cuda/lud_cuda -s 256 -v
+make
+time cuda/lud_cuda -s 2048

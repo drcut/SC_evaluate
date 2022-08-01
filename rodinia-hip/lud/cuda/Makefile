@@ -8,11 +8,15 @@ DEFS += \
 NVCCFLAGS += -I../common \
 			 -O3 \
 			 -lm \
+			 -std=c++17 \
+			 -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include \
 			 $(SPACE)
 
 CFLAGS += -I../common \
 		  -O3 \
 		  -Wall \
+		  -std=c++17 \
+		  -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include \
 		  $(SPACE)
 
 # Add source files here

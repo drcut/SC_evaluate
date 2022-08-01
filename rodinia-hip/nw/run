@@ -1,5 +1,6 @@
 hipify-clang --perl
-perl hipify-perl ex_particle_CUDA_naive_seq.cu > ex_particle_CUDA_naive_seq.cc
-g++ -o particlefilter_naive ex_particle_CUDA_naive_seq.cc -lpthread -ltbb -fpermissive
+perl hipify-perl needle.cu > needle.cc
+perl hipify-perl needle_kernel.cu > needle_kernel.cc
+g++  -std=c++17 -o needle needle.cc -lpthread -ltbb -fpermissive -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include
 
-./needle 2048 10
+./needle 8000 10

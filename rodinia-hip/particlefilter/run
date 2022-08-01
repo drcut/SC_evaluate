@@ -1,6 +1,5 @@
 hipify-clang --perl
 perl hipify-perl ex_particle_CUDA_naive_seq.cu > ex_particle_CUDA_naive_seq.cc
-g++ -o particlefilter_naive ex_particle_CUDA_naive_seq.cc -lpthread -ltbb -fpermissive
+g++ -std=c++17 -o particlefilter_naive ex_particle_CUDA_naive_seq.cc -lpthread -ltbb -fpermissive -I/nethome/rhan38/Intel_PPoPP_evaluate/SC_evaluate/HIP-CPU/include
 
-./particlefilter_naive -x 128 -y 128 -z 10 -np 1000
-
+./particlefilter_naive -x 128 -y 128 -z 10 -np 20000

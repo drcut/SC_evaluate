@@ -90,7 +90,7 @@ int main(int argc, char* argv[])
 
   std::vector<Record> records;
 	std::vector<LatLong> locations;
-	char filename[100];
+	char filename[300];
 	int resultsCount=10;
 
     // parse command line
@@ -221,7 +221,7 @@ int main(int argc, char* argv[])
 int loadData(char *filename,std::vector<Record> &records,std::vector<LatLong> &locations){
     FILE   *flist,*fp;
 	int    i=0;
-	char dbname[64];
+	char dbname[256];
 	int recNum=0;
 
     /**Main processing **/
@@ -303,7 +303,7 @@ int parseCommandline(int argc, char *argv[], char* filename,int *r,float *lat,fl
                      int *q, int *t, int *p, int *d){
     int i;
     if (argc < 2) return 1; // error
-    strncpy(filename,argv[1],100);
+    strncpy(filename,argv[1],300);
     char flag;
 
     for(i=1;i<argc;i++) {
